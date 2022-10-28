@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Airplane {
+class Airplane :public AirCraft{
 
 
 
