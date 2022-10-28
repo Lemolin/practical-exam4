@@ -3,7 +3,7 @@
 
 AirCraft::AirCraft(int w) {
 	weight = w;
-	fuel = 1.0;
+	fuel = 100.0;
 	numberOfFlights = 0;
 
 }
@@ -36,5 +36,5 @@ int AirCraft::get_numberOfFlights() {
 
 
 void AirCraft::refuel() {
-	fuel = 1.0;
+	fuel = 100.0;
 }
