@@ -1,10 +1,10 @@
 #include "Airplane.h"
 
-Airplane::Airplane() {
+Airplane::Airplane():AirCraft(weight) {
 	weight = 0;
 	numPassengers = 0;
 }
-Airplane::Airplane(int w,int p) {
+Airplane::Airplane(int w,int p) :AirCraft(weight) {
 	weight = w;
 	numPassengers = p;
 	
